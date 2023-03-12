@@ -1,0 +1,63 @@
+Who We Are
+Section was founded in Australia in 2012 and moved its headquarters to the US in 2016. We now have offices in Australia (NSW), Bulgaria (Sofia) and the United States (Colorado).
+
+Section is backed by a group of top-shelf Venture Capital firms, led by the Foundry Group.
+
+The Section team is a group of dedicated individuals who come from diverse backgrounds in engineering, operations, agile development, marketing, sales, and product.
+
+Our collective passion is delivering a better hosting solution for Dev and Ops Engineers.
+
+
+
+What We Do
+Section is a Cloud-Native hosting system that continuously optimizes the orchestration of applications with global infrastructure for optimal application delivery.
+
+Section’s sophisticated, distributed and “clusterless” platform intelligently and adaptively manages workloads around developer intent (such as desired performance, cost or reliability) to ensure applications run at the right place and time; whether that is Multi-Cluster, Multi-Cloud, Edge, or combinations thereof.
+
+Section’s customers include Bigcommerce, Kentik, Lumen, and Blackbaud who all leverage Section’s platform to run containerized workloads on a globally distributed footprint of compute that is dynamically optimizing to their application needs; without needing to deploy or manage any Kubernetes clusters or infrastructure.
+
+You build the apps. Section handles the rest.
+
+
+Why We Do It
+Section was born out of frustration with cloud and legacy CDNs.
+
+There are thousands of major data centers distributed across just the United States alone - many of these data centers powering “Cloud Compute” capabilities.
+
+Today every single dev and ops team has to go through a largely arbitrary process to choose which location on the planet is the right location for their code and then deploy and manage that location. With the entrance of 5G, telcos, and ISPs into the provision of data centers, this problem is going to become significantly more pronounced.
+
+How can you choose from hundreds of thousands of locations and cost-effectively manage that decision process? Section has made it easy for application teams to access the solution to this problem.
+
+Founded by Stewart McGrath and Daniel Bartholomew, who came from backgrounds in e-commerce and agile development, Section solves the challenges that Dev and Ops engineers face with legacy hosting solutions such as cloud and legacy distributed systems such as CDNs.
+
+“Thanks to the emergence of Cloud, application teams have previously been able to deploy their applications to infrastructure in minutes and thanks to CDN, teams have been able to run small parts of their applications on distributed footprints,” says Stewart McGrath CEO of Section. “Never before have teams been able to so quickly and easily deploy full microservice containerized apps with the simplicity of Cloud and a distribution paradigm which is wider and smarter than that offered by legacy CDNs.”
+
+
+
+VAUES
+
+We are human.
+We treat others with respect, regardless of status or viewpoints.
+We are quietly confident, humble, and will admit mistakes openly.
+We are welcoming to all people, ideas, cultures, and approaches.
+
+We are driven.
+We share a passion to get shit done.
+We make decisions and learn from our mistakes.
+We value outcomes over effort.
+We bring proposed solutions with problem statements.
+
+We are transparent.
+We share information openly, deliberately, and in a timely manner.
+We communicate in an honest and direct fashion.
+We question behavior that is not consistent with our Values.
+
+We are intellectually curious.
+We learn rapidly and eagerly.
+We challenge ourselves with transformational, innovative solutions.
+We think big and forward.
+
+We are team-oriented.
+We trust and support each other.
+We win together and lose together.
+We multiply our contributions through collaboration.

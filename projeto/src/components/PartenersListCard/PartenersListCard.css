@@ -1,0 +1,15 @@
+.partenersListCard {
+  display: flex;
+  align-items: center;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+.partenersListCard p{
+  font-size: 20px;
+}
+.partenersListCard p:hover {
+  color: #19335a;
+}
+.partenersListCard .MuiSvgIcon-root {
+  color: #19335a;
+}

@@ -1,0 +1,15 @@
+.projectSquareCard{
+  width: 30%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.projectSquareCard h4 {
+  color: #19335a;
+  text-transform: uppercase;
+  
+}
+
+.projectSquareCard  h4::first-letter{
+  text-transform: uppercase;
+}

@@ -1,0 +1,49 @@
+.topBar {
+  width: 100%;
+  padding: 10px 30px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topBar .rigth {
+  width: 50%;
+}
+.topBar .rigth p {
+  font-size: 27px;
+  font-weight: 600;
+  color: #19335a;
+  margin-left: 15%;
+  text-transform: uppercase;
+}
+.topBar .left {
+  display: flex;
+  align-items: center;
+}
+
+.topBar .left .notification {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.topBar .left .notification .MuiSvgIcon-root{
+    width: 30px;
+    height: 30px;
+}
+.topBar .user {
+  display: flex;
+  align-items: center;
+}
+
+.topBar .user .user_img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+.topBar .user .user_name {
+  margin-left: 1px;
+}

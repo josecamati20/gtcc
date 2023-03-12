@@ -1,0 +1,39 @@
+header {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  border-radius: 6px;
+}
+
+
+.searchBar {
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 200px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.searchBar select{
+  border: none;
+}
+
+.searchBar input {
+  width: 100%;
+  font-size: 18px;
+  flex: 1;
+  border-radius: 5px;
+  text-indent: 5px;
+  height: 33px;
+  border: none;
+}
+.searchBar input:focus{
+  border: none;
+}
+.searchBar .MuiSvgIcon-root {
+  color: #19335a;
+}

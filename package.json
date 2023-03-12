@@ -1,0 +1,14 @@
+{
+  "name": "gtcc",
+  "version": "1.0.0",
+  "description": "my tcc manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jose camati",
+  "license": "ISC",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}

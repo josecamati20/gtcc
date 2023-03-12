@@ -1,0 +1,103 @@
+.projeto {
+  background-color: rgb(211, 210, 210);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projeto .menu {
+  width: 85%;
+  height: 86px;
+  margin-left: 4%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projeto .menu .title {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  margin-bottom: 10px;
+}
+.projeto .menu .title h3 {
+  position: absolute;
+  left: 0px;
+  color: #19335a;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+.projeto .menu .search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projeto .menu .search .groupBy .addButton {
+  background-color: white;
+  margin-left: 4px;
+}
+.projeto .menu .search .groupBy label {
+  margin-right: 4px;
+}
+.projeto .menu .search .groupBy select {
+  border-radius: 4px;
+  padding: 0px 15px;
+  cursor: pointer;
+  transition: all 0.7s;
+  height: 36px;
+  border: none;
+  font-size: 17px;
+}
+.projeto .menu .search .groupBy select:focus{
+  outline: 0;
+}
+.projeto .projetos_list {
+  margin-top: 3%;
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 4%;
+  margin-bottom: 10px;
+}
+
+.projeto .projetos_list .titleBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 85%;
+  margin-top: 10px;
+}
+.projeto .projetos_list .titleBar h3 {
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  color: #19335a;
+}
+.projeto .projetos_list .list_item {
+  width: 100%;
+}
+
+.projetos_list .empty {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projetos_list .empty .empty_icon {
+  width: 80%;
+  height: 70%;
+}
+.projetos_list .empty .empty_text {
+  font-size: 30px;
+  margin-top: 14px;
+  margin-right: 60px;
+  color: #19335a;
+}

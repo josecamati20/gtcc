@@ -1,0 +1,42 @@
+# Query: rgb(211, 210, 210)
+# ContextLines: 1
+
+8 results - 6 files
+
+projeto\index.html:
+   9        body {
+  10:         background-color: rgb(192, 190, 190);
+  11          width: 100%;
+
+projeto\src\App.css:
+  14    height:100%;
+  15:   background-color: rgb(192, 190, 190);
+  16    padding: 4px;
+
+projeto\src\components\pages\Home\Home.css:
+  1  .home {
+  2:   background-color: rgb(192, 190, 190);
+  3    width: 100%;
+
+projeto\src\components\pages\SingleAlunoPage\SingleAlunoPage.css:
+   1  .singleAlunoPage {
+   2:   background-color: rgb(192, 190, 190);
+   3    width: 100%;
+
+  21    width: 40%;
+  22:   border-right: 6px solid rgb(192, 190, 190);
+  23  }
+
+projeto\src\components\pages\SingleTutorPage\SingleTutorPage.css:
+   1  .singleTutorPage {
+   2:   background-color: rgb(192, 190, 190);
+   3    width: 100%;
+
+  21    width: 40%;
+  22:   border-right: 6px solid rgb(192, 190, 190);
+  23  }
+
+projeto\src\components\pages\Tutor\Tutor.css:
+  1  .tutor {
+  2:   background-color: rgb(192, 190, 190);
+  3    width: 100%;

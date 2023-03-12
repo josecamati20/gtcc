@@ -1,0 +1,695 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: popinsligth;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    position: relative;
+}
+
+@font-face {
+    font-family: popinsligth;
+    src: url('./Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: popinsbold;
+    src: url('./Poppins-Bold.ttf');
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background:transparent;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    z-index: 100;
+    color: white !important;
+    background:linear-gradient(to left, rgb(75, 75, 160), rgb(55, 55, 90));
+}
+
+header .logo{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header .logo h2{
+    font-family:popinsbold ;
+}
+header nav{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform 800ms;
+    color: white;
+    
+}
+
+header nav ul li:hover{
+    transform: scale(1.2);
+}
+header a{
+    color: white;
+    font-weight: 400;
+}
+header nav ul li:hover a{
+    opacity: 0.7;
+    
+}
+
+/* Estetilizacao do banner*/
+
+.banner{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner img{
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+    background-position: center center;
+}
+
+.banner .card_info{
+    width: 100%;
+    top: 45vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .card_info p{
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: white;
+}
+.banner .card_info h2{
+    font-size: 28px;
+    color: white;
+}
+.banner .card_info .card_info_buttons{
+    margin-top: 5px;
+}
+
+
+.banner .card_info .card_info_buttons .button{
+    background:linear-gradient(to left, rgb(75, 75, 160), rgb(55, 55, 90));
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 800ms;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+}
+.banner .card_info .card_info_buttons .button:hover{
+    background: white;
+}
+.banner .card_info .card_info_buttons .button:hover a{
+    color:rgb(55, 55, 90);
+    
+}
+.banner .card_info .card_info_buttons .button a{
+    color: white;
+    transition: all 800ms;
+}
+.banner .card_info .card_info_buttons .ative{
+    background: white;
+    color:rgb(55, 55, 90);
+    padding: 10px ;
+}
+.banner .card_info .card_info_buttons .ative:hover{
+    background:linear-gradient(to left, rgb(75, 75, 160), rgb(55, 55, 90));
+}
+.banner .card_info .card_info_buttons .ative:hover a{
+    color:white;
+}
+.banner .card_info .card_info_buttons .ative a{
+    color: #37375a;
+    transition: all 800ms;
+}
+/* Estetilizacao dos cards*/
+
+.cards{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: -60px;
+    z-index: 1;
+    flex-wrap: wrap;
+    right: 0px;
+    position: absolute;
+    position: relative;
+
+}
+
+.cards .card{
+    margin: 10px;
+    color: black;
+    padding: 18px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px rgb(202, 199, 199);
+    max-width: 220px;
+    min-width: 220px;
+    background-color: white;
+    border-radius: 5px;
+}
+.cards .card img{
+    width: 30px;
+}
+/* Estetilizacao do small_about*/
+
+.small_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.small_about .left{
+   margin-bottom: 8px;
+}
+.small_about .left img{
+    max-width: 450px;
+    min-width: 280px;
+    border-radius: 8px;
+    box-shadow:  -10px -10px 2px #37375a;
+}
+.small_about .right{
+    max-width: 450px;
+    min-width: 280px;
+    padding: 10px;
+   
+}
+.small_about .right h2{
+    color:rgb(55, 55, 90);
+    margin-top: -18px;
+    
+}
+.small_about .right hr{
+    width: 100px;
+    height: 4px;
+    background:linear-gradient(to left, rgb(75, 75, 160), rgb(55, 55, 90));
+    margin-top: 2px;
+}
+.small_about .right p{
+    font-size: 16px;
+    margin:6px 0px 8px 0px;
+    text-align: justify;
+}
+.small_about .right button{
+    border: none;
+    background:linear-gradient(to left, rgb(75, 75, 160), rgb(55, 55, 90));
+    color: white;
+    padding: 10px;
+    border-radius:8px;
+    transition: transform 800ms;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.small_about .right button:hover{
+    transform: scale(1.1);
+}
+/* Estetilizacao do services*/
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+
+}
+.services  h2{
+    margin-bottom: 5px;
+    color:rgb(55, 55, 90);
+}
+.services hr{
+    width: 100px;
+    height: 4px;
+    background:linear-gradient(to left, rgb(75, 75, 160), rgb(55, 55, 90));
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+.services .cards_service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services .cards_service .blue{
+    background:linear-gradient(to left, rgb(75, 75, 160), rgb(55, 55, 90));
+    color: white;
+}
+.services .cards_service .card_service{
+    max-width: 280px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px rgb(202, 199, 199);
+    margin: 5px;
+    transition: all 800ms;
+}
+
+.services .cards_service .card_service h3{
+    text-align: justify;
+
+}
+.services .cards_service .card_service p{
+    text-align: justify;
+    margin-top: 5px;
+}
+.services .cards_service .card_service button{
+    border: none;
+    background:transparent;
+    color: white;
+    border-radius:8px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .button{
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 800ms;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+    background: white;
+    color: #37375a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services .button:hover{
+    opacity: 0.6;
+}
+.services  .button img{
+    width: 30px;
+    margin-left: 5px;
+}
+
+/* Estetilizacao das testemunhas*/
+.testemunhas{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.testemunhas .left{
+    max-width: 400px;
+    min-width: 280px;
+    padding: 10px ;
+    
+}
+.testemunhas .left h2{
+    word-spacing: 2px;
+}
+.testemunhas .left p{
+    color: #37375a;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+.testemunhas .left hr{
+    width: 100px;
+    height: 4px;
+    background:linear-gradient(to left, rgb(75, 75, 160), rgb(55, 55, 90));
+}
+.testemunhas .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 280px;
+}
+.testemunhas .right .card{
+    max-width: 500px;
+    min-width: 280px;
+    box-shadow: 1px 1px 10px rgb(202, 199, 199);
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+}
+.testemunhas .right .card p{
+    color: gray;
+    font-size: 14px;
+    text-align: justify;
+}
+.testemunhas .right .toleft{
+    margin-right: 200px;
+}
+/* Estetilizacao dos eventos*/
+
+.eventos{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.eventos .left{
+    width: 100%;
+    min-width: 280px;
+    padding: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+    
+}
+.eventos .left h2{
+    word-spacing: 2px;
+
+}
+.eventos .left p{
+    color: #37375a;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+.eventos .left hr{
+    width: 100px;
+    height: 4px;
+    background:linear-gradient(to left, rgb(75, 75, 160), rgb(55, 55, 90));
+    margin-top: 4px;
+    margin-bottom: 10px;
+
+
+}
+.eventos .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-width: 280px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.eventos .right .card{
+    max-width: 350px;
+    min-width: 280px;
+    box-shadow: 1px 1px 10px rgb(202, 199, 199);
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    background: url('./b2.jpg') center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    min-height: 350px;
+    transition: all 1000ms ease;
+    
+}
+.eventos .right .card:hover{
+    background: #37375a;
+
+}
+.eventos .right .card p{
+    color: gray;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 8px;
+    color: white;
+    visibility: hidden;
+}
+.eventos .right .card:hover p{
+    visibility:visible
+}
+
+/* Estetilizacao do parteners*/
+
+.parteners{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.parteners .left{
+    padding: 10px;
+    color:rgb(55, 55, 90);
+    display: flex;
+    justify-content: space-between;
+    max-width: 280px;
+    align-items: center;
+}
+.parteners .left hr{
+    background:linear-gradient(to left, rgb(75, 75, 160), rgb(55, 55, 90));
+    height: 40px;
+    width: 4px;
+    margin-left: 8px;
+}
+.parteners .right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.parteners .right img{
+    width: 130px;
+    margin: 10px;
+}
+
+/* Estetilizacao do footer*/
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    background:linear-gradient(to left, rgb(75, 75, 160), rgb(55, 55, 90));
+    flex-wrap: wrap;
+    width: 100%;
+}
+.footer h2{
+    color: white !important;
+}
+.footer .inegocios{
+    max-width: 280px;
+    min-width: 280px;
+    padding: 10px;
+}
+.footer .inegocios h2{
+    margin-bottom: 10px;
+}
+.footer.inegocios p{
+    text-align: justify;
+    color: white !important;
+}
+.footer .inegocios .icons{
+    display:flex ;
+    align-items: center;
+    margin-left: -7px;
+}
+.footer .inegocios .icons a{
+    margin: 5px;
+   
+}
+.footer .inegocios .icons img{
+    width: 28px;
+   
+}
+.footer .explore{
+    max-width: 280px;
+    min-width: 280px;
+    padding: 10px;
+}
+.footer .explore h2{
+    margin-bottom: 10px;
+    color: white;
+}
+.footer .explore ul li{
+    color: white;
+    cursor: pointer;
+}
+.footer .explore ul li:hover{
+    color: black;
+}
+
+.footer .contacto{
+    max-width: 280px;
+    min-width: 280px;
+    padding: 10px;
+}
+.footer .contacto h2{
+    margin-bottom: 10px;
+    color: white;
+}
+.footer .contacto p{
+    color: white;
+}
+.footer .contacto .home {
+    display: flex;
+    margin-bottom: 8px;
+}
+.footer .contacto .home img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+.footer .contacto .numero {
+    display: flex;
+    margin-bottom: 8px;
+}
+.footer .contacto .numero img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+.footer .contacto .email {
+    display: flex;
+    margin-bottom: 8px;
+}
+.footer .contacto .email img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+
+
+
+/* Estetilizacao da pagina sobre sobre*/
+
+.sobre{
+    padding: 10px;
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.sobre .card{
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.sobre .card h2{
+    color: #37375a;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+.sobre .card p{
+    max-width: 600px;
+    min-width: 280px;
+    text-align: justify;
+   
+}
+
+/* Estetilizacao da pagina sobre valores*/
+
+
+.valores{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+.valores .left{
+    max-width: 400px;
+    min-width: 280px;
+    padding: 10px ;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.valores .left h2{
+    word-spacing: 2px;
+}
+.valores .left p{
+    color: #37375a;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+.valores .left hr{
+    width: 100px;
+    height: 4px;
+    margin-top: 5px;
+    background:linear-gradient(to left, rgb(75, 75, 160), rgb(55, 55, 90));
+}
+.valores .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.valores .right .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    min-width: 280px;
+    flex-wrap: wrap;
+    margin: 8px;
+}
+.valores .right .cards .card{
+    max-width: 350px;
+    min-width: 280px;
+    box-shadow: 1px 1px 10px rgb(202, 199, 199);
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.valores .right .cards .card p{
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

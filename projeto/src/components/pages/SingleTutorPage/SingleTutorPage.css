@@ -1,0 +1,79 @@
+.singleTutorPage {
+  background-color: rgb(211, 210, 210);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.singleTutorPage .tutorSquare {
+  margin-top: 10px;
+  width: 85%;
+  height: 49%;
+  background-color: white;
+  border-radius: 6px;
+  display: flex;
+  margin-left: 4%;
+  padding: 8px;
+}
+.singleTutorPage .tutorSquare .basic {
+  width: 40%;
+  border-right: 6px solid rgb(211, 210, 210);
+}
+.singleTutorPage .tutorSquare .tutor_info {
+  width: 100%;
+  height: 100%;
+}
+.singleTutorPage .tutorSquare .tutor_info .titleBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.singleTutorPage .tutorSquare .tutor_info .titleBar h3 {
+  margin-bottom: 14px;
+  margin-top: 14px;
+  margin-left: 2%;
+  text-transform: uppercase;
+  color: #19335a;
+}
+
+.singleTutorPage .tutorSquare .tutor_info .project_body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  max-height: 260px;
+  margin-left: 2%;
+}
+
+.singleTutorPage .projects_list {
+  width: 85%;
+  height: 49%;
+  background-color: transparent;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 4%;
+}
+
+.singleTutorPage .projects_list .titleBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 85%;
+  margin-top: 10px;
+}
+.singleTutorPage .projects_list .titleBar h3 {
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  color: #19335a;
+}
+.singleTutorPage .projects_list .list_item {
+  width: 100%;
+}

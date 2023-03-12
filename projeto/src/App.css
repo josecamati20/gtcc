@@ -1,0 +1,20 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: pop;
+}
+@font-face {
+  font-family: pop;
+  src: url("./assets/Poppins-Medium.ttf");
+}
+
+.App {
+  width: 100%;
+  height:100%;
+  background-color: rgb(211, 210, 210);
+  padding: 4px;
+ position: relative;
+ 
+ 
+}
