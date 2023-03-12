@@ -1,2 +1,2 @@
-# gtcc
+# Sistema de gestão de tcc
  
