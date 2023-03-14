@@ -7,35 +7,20 @@
   justify-content: center;
 }
 
-.login .label {
+.login .card {
+  background-color: white;
+  padding: 4% 3%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
+  border-radius: 4px;
 }
-.login .label p {
-  color: #19335a;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 26px;
-  margin: 0px 2px 0px 2px;
-}
-.login .label hr {
-  background-color: black;
-  width: 80px;
-  height: 2px;
-}
-.login .about {
-  width: 40%;
-  height: 100%;
-  background-color: #19335a;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: white;
+
+.login .ilustration img {
+  width: 340px;
 }
 .login .form {
-  background-color: white;
+  background-color: transparent;
   padding: 4% 3%;
   display: flex;
   justify-content: center;
@@ -58,7 +43,6 @@
 .login .form .title .sub_title {
   color: gray;
   font-size: 14px;
-  
 }
 .login .form .inputElement {
   display: flex;
@@ -81,7 +65,6 @@
 .login .form .inputElement .MuiSvgIcon-root {
   position: absolute;
   color: black;
-  
 }
 .login .form .button {
   background-color: #3c7ee1;

@@ -12,21 +12,30 @@ export default function Login() {
   const { register, handleSubmit } = useForm();
   return (
     <div className="login">
-      <div className="form">
-        <div className="title">
-          <p className="my_title">bem vindo de volta</p>
-          <p className="sub_title">Insere as tuas credencias para continuar</p>
+      <div className="card">
+        <div className="ilustration">
+          <img src="/src/assets/login.svg" alt="login_ilustration" />
         </div>
-        <div className="inputElement">
-          <PersonOutlined />
-          <input type="email" placeholder="Insire o e-mail*" />
-        </div>
-        <div className="inputElement">
-          <LockOutlined />
-          <input type="password" placeholder="Insere a palavra-passe*" />
-        </div>
+        <div className="form">
+          <div className="title">
+            <p className="my_title">bem vindo de volta</p>
+            <p className="sub_title">
+              Insere as tuas credencias para continuar
+            </p>
+          </div>
+          <div className="inputElement">
+            <PersonOutlined />
+            <input type="email" placeholder="Insire o e-mail*" />
+          </div>
+          <div className="inputElement">
+            <LockOutlined />
+            <input type="password" placeholder="Insere a palavra-passe*" />
+          </div>
 
-        <Button className="button" disabled>iniciar sessão</Button>
+          <Button className="button" disabled>
+            iniciar sessão
+          </Button>
+        </div>
       </div>
     </div>
   );
